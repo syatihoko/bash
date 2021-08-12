@@ -16,3 +16,5 @@ cat * >> test.txt
 
 #Раскрываем все файлы в директории    
 find . -name "*.gz" -exec gunzip {} \;    
+
+ find . -name "*" -exec echo {} \;  
